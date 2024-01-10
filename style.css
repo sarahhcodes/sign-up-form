@@ -1,0 +1,35 @@
+body {
+    background-color: #aaa;
+}
+
+.container {
+    background-color: #888;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+
+.splash {
+    background-color: #ccc;
+    width:25%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    background-color: #fff;
+    width:70%;
+    height:100vh;
+    padding: 50px;
+}
