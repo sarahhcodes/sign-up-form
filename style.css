@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     background-color: #aaa;
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -27,9 +32,50 @@ body {
     text-align: center;
 }
 
+.logo h1 {
+    font-family:'Bebas Neue', sans-serif;
+}
+
 .content {
-    background-color: #fff;
+    background-color: #eee;
     width:70%;
     height:100vh;
-    padding: 50px;
+}
+
+.intro {
+    padding: 25px;
+}
+
+.form {
+    background-color: #fff;
+    width: 95%;
+    padding: 10px;
+}
+
+form {
+    border: none;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: inline-flex;
+    width: 100px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:12px;
+    color:#fff;
+    background-color: blueviolet;
+    padding:10px;
+    border: #fff;
+    border-radius: 5px;
 }

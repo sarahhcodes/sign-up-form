@@ -10,11 +10,36 @@
     <div class="container">
         <div class="splash"><div class="logo"><h1>fake form</h1></div></div>
         <div class="content">
-            <h2>This is not a real online service.</h2>
-            <p>If you'd like to sign up for our FAKE online service though, fill out the below form.</p>
-            <p>DISCLAIMER: there is no service. This form does nothing.</p>
-            <p>Have fun filling out the useless form!</p>
-            <!-- form goes here -->
+            <div class="intro">
+                <h2>This is not a real online service.</h2>
+                <p>If you'd like to sign up for our FAKE online service though, fill out the below form.</p>
+                <p>DISCLAIMER: there is no service. This form does nothing.</p>
+            </div>
+            <div class="form">
+                <p>Have fun filling out the useless form!</p>
+                <form action="#" method="post">
+                    <fieldset>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="text" id="phone-number" name="phone-number">
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="text" id="password-confirm" name="password-confirm">
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
