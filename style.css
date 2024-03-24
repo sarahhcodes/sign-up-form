@@ -19,6 +19,8 @@ body {
 
 .splash {
     background-color: #ccc;
+    background-image: url("sunflowers-background.png");
+    background-size: contain;
     width:25%;
     height:100vh;
     display: flex;
